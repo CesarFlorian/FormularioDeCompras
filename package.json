@@ -1,0 +1,24 @@
+{
+  "name": "formulario-de-compras",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.17.0",
+    "selenium-webdriver": "^4.34.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^138.0.5",
+    "mocha": "^11.7.1"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  }
+}
